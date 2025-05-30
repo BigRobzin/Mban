@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whase Bank</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="www.jpg" alt="Whase Bank Logo" />
+                <span>Whase Bank</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+            <div class="nav-actions">
+                <input type="search" placeholder="Search..." aria-label="Search" />
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Login to Your Account</h2>
+            <form>
+                <input type="text" placeholder="Username" required />
+                <input type="password" placeholder="Password" required />
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section class="services-section">
+            <div class="service-card">Loan</div>
+            <div class="service-card">Savings</div>
+            <div class="service-card">Investor Relations</div>
+            <div class="service-card">Career</div>
+            <div class="service-card">Resource Center</div>
+            <div class="service-card">Bonus</div>
+            <div class="service-card">Education</div>
+            <div class="service-card">Goals</div>
+        </section>
+
+       <section class="socials-section">
+            <a href="#" aria-label="X"><img src="twitter.png" alt="X" /></a>
+            <a href="#" aria-label="Facebook"><img src="facebook.png" alt="Facebook" /></a>
+            <a href="#" aria-label="LinkedIn"><img src="social.png" alt="LinkedIn" /></a>
+            <a href="#" aria-label="Instagram"><img src="instagram.png" alt="Instagram" /></a>
+        </section>
+
+        <section class="filter-section">
+            <label for="filter">Filter:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="loan">Loan</option>
+                <option value="savings">Savings</option>
+                <option value="career">Career</option>
+            </select>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Whase Bank. All rights reserved.</p>
+    </footer>
+    <script src="../src/scripts/main.js"></script>
+    
+</body>
+</html>
