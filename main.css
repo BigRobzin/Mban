@@ -222,30 +222,6 @@ footer {
     box-shadow: 0 -2px 8px rgba(10,37,64,0.08);
 }
 
-/* Responsive Styles */
-@media (max-width: 900px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.2rem;
-        padding: 1.2rem 1rem;
-    }
-    .services-section {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 600px) {
-    .services-section {
-        grid-template-columns: 1fr;
-    }
-    .login-section {
-        padding: 1.2rem 0.5rem;
-    }
-    .navbar {
-        padding: 1rem 0.5rem;
-    }
-}
 /* Personal/Business/About Us page styles */
 .hero-section {
     background: linear-gradient(90deg, #e3f0ff 60%, #f9f9f9 100%);
@@ -392,7 +368,38 @@ footer {
     margin-left: 1rem;
 }
 
+/* Responsive Styles */
 @media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.2rem;
+        padding: 1.2rem 1rem;
+    }
+    .services-section {
+        grid-template-columns: 1fr 1fr;
+    }
+     .about-content-section {
+        flex-direction: column;
+        padding: 1.5rem 0.5rem;
+    }
+    .about-img-container img {
+        width: 160px;
+        height: 160px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .services-section {
+        grid-template-columns: 1fr;
+    }
+    .login-section {
+        padding: 1.2rem 0.5rem;
+    }
+    .navbar {
+        padding: 1rem 0.5rem;
+    }
     .about-content-section {
         flex-direction: column;
         padding: 1.5rem 0.5rem;
